@@ -1,4 +1,11 @@
-.counter-wrapper {
+
+
+
+import styled from "@emotion/styled";
+import { css } from "@emotion/react";
+
+export const counterwrapper = styled.div`
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,14 +17,11 @@
   padding: 20px;
   background-color: rgb(26, 35, 53);
   color: white;
-}
+`;
 
-.button-control {
-  width: 80px;
-}
+export const buttenControl = styled.div`
+width: 80px;`;
 
-.count {
-  font-size: 40px;
+export const count = styled.div`font-size: 40px;
   font-weight: bold;
-  color: white;
-}
+  color: white;`;

@@ -3,7 +3,7 @@
 import Button from "componets/Button/Button";
 
 import { CounterProps } from "./types";
-import "./styles.css";
+import {counterwrapper} from "./styles"
 
 // !! Есть 2 основных способа вызова перерендера(обновления) компонента:
 // 1 - изменения state(посредством вызова функции setState())
