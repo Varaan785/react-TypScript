@@ -27,12 +27,12 @@ function Counter({ count, onMinus, onPlus }: CounterProps) {
   // };
 
   return (
-    <div className="counter-wrapper">
-      <div className="button-control">
+    <div >
+      <div >
         <Button name="-" onClick={onMinus} />
       </div>
-      <p className="count">{count}</p>
-      <div className="button-control">
+      <p >{count}</p>
+      <div >
         <Button name="+" onClick={onPlus} />
       </div>
     </div>
