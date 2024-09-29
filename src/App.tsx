@@ -21,10 +21,14 @@ import Lesson_08 from 'lessons/Lesson08/Lesson8';
 
 
 import './App.css';
-import Feedback from 'componets/Feedback/Feedback';
+
 import Consultation_03 from 'consultations/Consultation_03/Consultation_03';
 
 
+//Test
+import Counter from 'componets/Counter/Counter';
+import Feedback from 'componets/Feedback/Feedback';
+import HomeWork08 from 'homeworks/homework08fep/HomeWork8';
 
 
 
@@ -32,22 +36,30 @@ function App() {
   return (
    <>
     Consultation
-    <Consultation_03/>
+    {/* <Consultation_03/> */}
 
 
 
 
     Lesson 
-    <Lesson_06/>
-    <Lesson07 />
-    <Lesson_08/>
+    {/* <Lesson_06/> */}
+    {/* <Lesson07 /> */}
+    {/* <Lesson_08/> */}
 
 
 
 
-    HomeWork
-    <Homework_07/>
-    <Homework06 />
+    HomeWork 
+    {/* <Homework06 /> */}
+    {/* <Homework_07/> */}
+    <HomeWork08/>
+    
+
+
+
+
+    Test
+    
     
     
     

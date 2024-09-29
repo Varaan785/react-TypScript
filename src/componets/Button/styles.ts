@@ -11,8 +11,12 @@ export const ButtonComponent = styled.button<ButtonComponentStyleProps>`
   width: 100%;
   height: 70px;
   border: none;
-  background-color: ${({ $isDeleteVariant }) =>
-    $isDeleteVariant ? colors.ERROR : colors.PRIMARY_BLUE};
+  background-color: ${({disabled, $isDeleteVariant }) =>
+  disabled
+  ?colors.DISABLED
+  : $isDeleteVariant
+  ? colors.ERROR
+  : colors.PRIMARY_BLUE};
   color: white;
   font-size: 20px;
   font-weight: bold;

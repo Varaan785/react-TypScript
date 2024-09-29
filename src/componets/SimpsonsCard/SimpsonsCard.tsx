@@ -1,5 +1,5 @@
 
-import "./styles.css";
+import { Avatar, CardWrapper, CartItem } from "./styles";
 import { SimpsonsCardProps } from "./types";
 
 
@@ -16,12 +16,12 @@ import { SimpsonsCardProps } from "./types";
   };
 
   return (
-    <div className="card-wrapper">
-      <img className="avatar" src={avatar} alt="Avatar" />
-      <p className="card-item">Full name: {getSimpsonName()} </p>
-      <p className="card-item">Job: {job}</p>
-      <p className="card-item">Hobby: {hobby}</p>
-    </div>
+    <CardWrapper>
+      <Avatar src={avatar} alt="Avatar" />
+      <CartItem>Full name: {getSimpsonName()} </CartItem>
+      <CartItem>Job: {job}</CartItem>
+      <CartItem>Hobby: {hobby}</CartItem>
+    </CardWrapper>
   );
 }
 

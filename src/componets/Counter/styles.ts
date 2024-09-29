@@ -4,7 +4,7 @@
 import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 
-export const counterwrapper = styled.div`
+export const CounterWrapper = styled.div`
 
   display: flex;
   align-items: center;
@@ -19,9 +19,10 @@ export const counterwrapper = styled.div`
   color: white;
 `;
 
-export const buttenControl = styled.div`
+export const ButtenControl = styled.div`
 width: 80px;`;
 
-export const count = styled.div`font-size: 40px;
+export const Count = styled.p`
+font-size: 40px;
   font-weight: bold;
   color: white;`;

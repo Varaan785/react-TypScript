@@ -1,5 +1,10 @@
-.modal-wrapper {
-  position: fixed;
+
+import styled from "@emotion/styled";
+import { isNamedExportBindings } from "typescript";
+
+
+
+export const ModalWrapper = styled.div`position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,11 +12,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5);`
 
-.modal-component {
-  display: flex;
+
+export const ModalComponent = styled.div`  display: flex;
   flex-direction: column;
   border: 2px solid black;
   width: 570px;
@@ -20,5 +24,4 @@
   box-shadow: 1px 2px 10px black;
   padding: 40px;
   background-color: white;
-  overflow-y: auto;
-}
+  overflow-y: auto;`
